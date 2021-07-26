@@ -19,6 +19,7 @@ namespace ScopicProject
             new[]{ 2, 3, 7, 6 },
             new[]{ 3, 0, 4, 7 } };
 
+
         public Cube() { }
 
         public vtkPolyData createCubeItem()
