@@ -1,0 +1,25 @@
+﻿<Window x:Class="ScopicProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScopicProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Background="#FF1C1F1F">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid x:Name="renderGrid" Margin="0,32.079,-1.6,50.171" Grid.Row="1"/>
+        <DockPanel Height="28.25" LastChildFill="False" VerticalAlignment="Top" Grid.RowSpan="2" Margin="0,0,-1.6,0">
+            <Menu Height="28.25" Width="790.966" Background="#FF333333" Margin="0">
+                <MenuItem x:Name="cubeButton" Header="Cube" Height="28.25" Width="39.467" Click="cubeButton_Click" HorizontalContentAlignment="Center" Background="#FFEEEEEE"/>
+                <MenuItem x:Name="PanButton" Header="Pan" Height="28" Width="33" HorizontalContentAlignment="Center" Background="#FFEEEEEE" Click="PanButton_Click"/>
+                <MenuItem x:Name="rotateButton" Header="Rotate" Height="28" Width="46.5" HorizontalContentAlignment="Center" Background="#FFEEEEEE" Click="RotateButton_Click"/>
+                <MenuItem x:Name="zoomButton" Header="Zoom" Height="28" Width="44" Click="zoomButton_Click" HorizontalContentAlignment="Center" Background="#FFEEEEEE"/>
+            </Menu>
+        </DockPanel>
+        <Label x:Name="selectedObject_label" Content="" Margin="8.8,368.634,558.8,4.805" Grid.Row="1" Foreground="White" FontSize="14"/>
+    </Grid>
+</Window>

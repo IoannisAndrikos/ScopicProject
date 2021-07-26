@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopicProject", "ScopicProject\ScopicProject.csproj", "{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Debug|x64.ActiveCfg = Release|x64
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Debug|x64.Build.0 = Release|x64
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Release|x64.ActiveCfg = Release|x64
+		{0AD2C804-2F92-4A04-82DC-EBE0EB26E392}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4653E999-DD2A-4D29-96EF-3C7F4777CC41}
+	EndGlobalSection
+EndGlobal
